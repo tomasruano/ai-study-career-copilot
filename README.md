@@ -4,6 +4,7 @@
 A privacy-first, fully local Retrieval-Augmented Generation (RAG) copilot designed to help users interact with their documents. Built with local LLMs, advanced semantic search, and cross-encoder reranking, this tool adapts to the user's context through dynamic "Study," "Exam," and "Career" modes.
 
 ## 🚀 Overview
+
 <img width="400" height="396" alt="AI GIF" src="https://github.com/user-attachments/assets/e9ea2bb9-3c21-4c3f-95d2-102b7da4279f" />
 
 Most document chat applications rely on cloud APIs, compromising privacy and incurring costs. This MVP demonstrates a complete, production-ready local AI pipeline. Users can upload multiple PDFs, inject their professional or academic profile for personalized context, and receive real-time streaming answers grounded strictly in the provided documents.
