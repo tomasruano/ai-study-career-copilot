@@ -1,1 +1,5 @@
-frontend/* linguist-vendored
+frontend/** linguist-detectable=false
+*.jsx linguist-detectable=false
+*.js linguist-detectable=false
+*.css linguist-detectable=false
+*.html linguist-detectable=false
