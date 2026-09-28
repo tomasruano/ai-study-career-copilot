@@ -1,0 +1,19 @@
+# Node & Frontend
+node_modules/
+dist/
+.env
+
+# Python & Backend
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Vector Database & Uploads
+backend/uploads/
+backend/vector_store/
+*.faiss
+*.pkl
+
+# OS files
+.DS_Store
