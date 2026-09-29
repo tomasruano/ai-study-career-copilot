@@ -84,5 +84,3 @@ npm run dev
 2. **Select Mode:** Choose between Study, Exam, or Career mode.
 3. **Personalize (Optional):** If using Career mode, enter your background or goals in the profile text box to contextualize the AI's advice.
 4. **Chat:** Ask questions. The system will retrieve the top 20 candidates, rerank them to the top 5, and stream the generation alongside exact document citations.
-
-```
