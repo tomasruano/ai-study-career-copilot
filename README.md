@@ -45,7 +45,7 @@ SentenceTransformer Embeddings
     ↓
 FAISS Vector Search
     ↓
-Top 20 Retrieved Chunks
+Top 10 Retrieved Chunks
     ↓
 CrossEncoder Reranking
     ↓
@@ -74,7 +74,7 @@ This approach separates **retrieval** from **generation**, allowing the model to
 
 Instead of sending every document chunk directly to the LLM, the system uses a two-stage retrieval process:
 
-1. **Vector retrieval** with FAISS identifies the top 20 semantically similar chunks.
+1. **Vector retrieval** with FAISS identifies the top 10 semantically similar chunks.
 2. **CrossEncoder reranking** evaluates those candidates and selects the top 5 most relevant chunks.
 3. The selected context is provided to the local LLM.
 4. The generated response is streamed back to the frontend together with document citations.
